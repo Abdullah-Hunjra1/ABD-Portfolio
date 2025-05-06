@@ -1,6 +1,4 @@
 
-
-
 // Node Modules
 
 import { ReactLenis } from 'lenis/react'
