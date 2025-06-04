@@ -59,7 +59,7 @@ const Skill = () => {
           Essential Tools I use
         </h2>
 
-        <p className="text-zinc-400 mt-4 mb-8 max-w-[50ch]">
+        <p className="text-[#C4C4D4] mt-4 mb-8 max-w-[50ch]">
           Discover the powerful tools and technologies I use to create exceptional, high-performing websites & applications.
         </p>
 
@@ -71,7 +71,7 @@ const Skill = () => {
               imgSrc={imgSrc}
               label={label}
               desc={desc}
-              classes="reveal-up"
+              classes="reveal-up "
               />
             ))
           }
