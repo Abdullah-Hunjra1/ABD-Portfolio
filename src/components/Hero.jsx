@@ -16,9 +16,9 @@ const Hero = () => {
                             <img src="/images/avatar-1.jpg" width={40} height={40} alt="ABD portrait" className="img-cover" />
                         </figure>
 
-                        <div className="flex items-center gap-1.5 text-zinc-400 text-sm tracking-wide">
-                            <span className="relative w-2 h-2 rounded-full bg-emerald-400">
-                                <span className=" absolute inset-0 rounded-full bg-emerald-400 animate-ping "></span>
+                        <div className="flex items-center gap-1.5 text-[#C4C4D4] text-sm tracking-wide">
+                            <span className="relative w-2 h-2 rounded-full bg-purple-800">
+                                <span className=" absolute inset-0 rounded-full bg-purple-800 animate-ping "></span>
                             </span>
 
                             Available for work
@@ -34,6 +34,7 @@ const Hero = () => {
                         <ButtonPrimary
                             label="Download CV"
                             icon="download"
+                            href="/images/CV For Full Stack Web Development.pdf"
                         />
 
                         <ButtonOutLine 
@@ -45,8 +46,8 @@ const Hero = () => {
                 </div>
 
                 <div className=" hidden lg:block">
-                    <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden">
-                        <img src="/images/abd-1.png" width={656} height={800} alt="ABD" className="w-full mt-8" />
+                    <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-purple-950 via-25% via-purple-950/40 to-65% rounded-[60px] overflow-hidden">
+                        <img src="/images/abd_new-removebg-png.png" width={656} height={800} alt="ABD" className="w-full mt-[-50px]" />
                     </figure>
                 </div>
             </div>
