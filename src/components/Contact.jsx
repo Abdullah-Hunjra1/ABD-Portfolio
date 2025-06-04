@@ -45,26 +45,26 @@ const Contact = () => {
                 Contact me for collaboration
                 </h2>
 
-                <p className=" text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch] reveal-up">
+                <p className=" text-[#C4C4D4] mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch] reveal-up">
                 Reach out today to discuss your project needs and start collaborating on something amazing!
                 </p>
 
                 <div className=" flex items-center gap-2 mt-auto">
                     {socialLinks.map(({href,icon},key)=>(
-                        <a key={key} href={href} target="_blank" className=" w-12 h-12 grid place-items-center ring-inset ring-2 ring-zinc-50/5 rounded-lg transition-[background-color,color] hover:bg-zinc-50 hover:text-zinc-950 active:bg-zinc-50/80 reveal-up">
+                        <a key={key} href={href} target="_blank" className=" w-12 h-12 grid place-items-center ring-inset ring-1 ring-[#F5F5F7] rounded-lg transition-[background-color,color] hover:bg-[#F5F5F7] hover:text-zinc-950 active:bg-zinc-50/80 reveal-up">
                             {icon}
                         </a>
                     ))}
                 </div>
             </div>
 
-            <form action="https://getform.io/f/adrrpqma" method="POST" className=" xl:pl-10 2xl:pl-20">
-                <div className=" md:grid md:items-center md:grid-cols-2 md:gap-2">
+            <form action="https://getform.io/f/adrrpqma" method="POST" className=" xl:pl-10 2xl:pl-20 bg-[#0e0d27] rounded-2xl p-6 lg:p-8 lg:pt-10 lg:pb-12 shadow-lg shadow-[#150F2F]">
+                <div className=" md:grid md:items-center md:grid-cols-2 md:gap-2 ">
 
-                    <div className="mb-4">
+                    <div className="mb-4 ">
                         <label htmlFor="name" className="label reveal-up">Name</label>
 
-                        <input type="text" name="name" id="name" autoComplete="name" required placeholder="ABD" className="text-field reveal-up" />
+                        <input type="text" name="name" id="name" autoComplete="name" required placeholder="ABD" className="text-field reveal-up " />
                     </div>
 
                     <div className=" mb-4">
