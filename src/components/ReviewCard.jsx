@@ -17,7 +17,7 @@ const ReviewCard = ({
     company
 }) => {
     return (
-        <div className=" bg-zinc-800 p-5 rounded-xl min-w-[320px] flex flex-col lg:min-w-[420px]">
+        <div className=" bg-[#150F2F] p-5 rounded-xl min-w-[320px] flex flex-col lg:min-w-[420px]">
 
             <div className=" flex-1 items-center gap-1 mb-3">
                 {ratings.map(({ style }, key) => (
@@ -27,7 +27,7 @@ const ReviewCard = ({
                 ))}
             </div>
 
-            <p className=" text-zinc-400 mb-8">
+            <p className=" text-[#C4C4D4] mb-8">
                 {content}
             </p>
 
@@ -41,7 +41,7 @@ const ReviewCard = ({
                         {name}
                     </p>
 
-                    <p className=" text-xs text-zinc-400 tracking-wider">
+                    <p className=" text-xs text-[#C4C4D4] tracking-wider">
                         {company}
                     </p>
                 </div>
