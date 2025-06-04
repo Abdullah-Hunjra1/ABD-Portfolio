@@ -1,45 +1,44 @@
 
-
 // Components
 
 import ProjectCard from "./ProjectCard";
 
 const works = [
     {
-        imgSrc: '/images/project-1.jpg',
-        title: 'Ecommerce Website',
-        tags: ['ecommerce', 'Development'],
-        projectLink: 'https://getnaturalmotion.com/'
+        imgSrc: '/images/portfolio.png',
+        title: 'Portfolio Website',
+        tags: ['react', 'Development'],
+        projectLink: 'https://abd-portfolio-l0plgh5d8-abdullahs-projects-2d66ab66.vercel.app/'
     },
     {
-        imgSrc: '/images/project-2.jpg',
+        imgSrc: '/images/marketphy.png',
         title: 'Market Phy',
         tags: ['ecommerce', 'Development'],
         projectLink: 'https://marketphy.com/website-development-services/'
     },
     {
-        imgSrc: '/images/project-3.jpg',
+        imgSrc: '/images/IAN.png',
         title: 'IAN DARRAH',
         tags: ['Development', 'API'],
         projectLink: 'https://iandarrah.com/'
     },
     {
-        imgSrc: '/images/project-4.jpg',
+        imgSrc: '/images/heaven-hub.png',
         title: 'Real state website',
         tags: ['Web-design', 'Development'],
-        projectLink: 'https://github.com/codewithsadee-org/wealthome'
+        projectLink: 'https://heaven-hub-sigma.vercel.app/'
     },
     {
-        imgSrc: '/images/project-5.jpg',
+        imgSrc: '/images/naturalmotion.png',
         title: 'eCommerce website',
         tags: ['eCommerce', 'Development'],
-        projectLink: 'https://github.com/codewithsadee/anon-ecommerce-website'
+        projectLink: 'https://getnaturalmotion.com/'
     },
     {
         imgSrc: '/images/project-6.jpg',
         title: 'vCard Personal portfolio',
         tags: ['Web-design', 'Development'],
-        projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
+        projectLink: ''
     },
 ];
 
