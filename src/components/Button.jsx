@@ -7,40 +7,40 @@ import { GoDownload } from "react-icons/go";
 import { FaArrowDown } from "react-icons/fa";
 
 
-// Primary Button
 const ButtonPrimary = ({
-    href, target = '_self', label, icon, classes
-}) => {
-    // console.log(`icon ---->  ${icon}`)
+    href,
+    target = "_self",
+    label,
+    icon,
+    classes,
+  }) => {
     if (href) {
-        return (
-            <>
-                <GoDownload />
-                <a href={href} target={target} className={"btn btn-primary " + classes}>
-                    {label}
-
-                    {icon ?
-                        <span className="material-symbols-rounded" aria-hidden="true"><GoDownload style={{ fontSize: '16px' }}/></span>
-                        : undefined
-                    }
-                </a>
-            </>
-        )
+      return (
+        <a href={href} target={target} className={"btn btn-primary " + classes}>
+          {label}
+  
+          {icon && (
+            <span className="material-symbols-rounded" aria-hidden="true">
+              <GoDownload style={{ fontSize: "16px" }} />
+            </span>
+          )}
+        </a>
+      );
     } else {
-        return (
-            <button className={"btn btn-primay" + classes}>
-                {label}
-
-
-                {icon ?
-                    <span className=" material-symbols-rounded" aria-hidden="true"><GoDownload style={{ fontSize: '16px' }}/></span>
-                    : undefined
-                }
-
-            </button>
-        )
+      return (
+        <button className={"btn btn-primary " + classes}>
+          {label}
+  
+          {icon && (
+            <span className="material-symbols-rounded" aria-hidden="true">
+              <GoDownload style={{ fontSize: "16px" }} />
+            </span>
+          )}
+        </button>
+      );
     }
-}
+  };
+  
 
 ButtonPrimary.propTypes = {
     label: PropTypes.string.isRequired,
