@@ -32,23 +32,23 @@ const sitemap = [
 const socials = [
     {
         label: 'GitHub',
-        href: 'https://www.github.com/codewithsadee-org'
+        href: 'https://github.com/Abdullah-Hunjra1'
     },
     {
         label: 'LinkedIn',
-        href: 'https://www.linkedin.com/in/codewithsadee'
+        href: 'https://www.linkedin.com/in/abdullah-jutt-8194bb279/'
     },
     {
         label: 'Twitter X',
-        href: 'https://x.com/codewithsadee_'
+        href: 'https://x.com/abdjutt804?s=11&t=xRcKyOw__4SaOMSf0Vldng'
     },
     {
         label: 'Instagram',
-        href: 'https://www.instagram.com/codewithsadee'
+        href: 'https://www.instagram.com/abdjutt_804?igsh=MWN6MGpjMGZ5d2liZw=='
     },
     {
-        label: 'CodePen',
-        href: 'https://codepen.io/codewithsadee'
+        label: 'Facebook',
+        href: 'https://www.facebook.com/profile.php?id=100019572234823&mibextid=wwXIfr&mibextid=wwXIfr'
     }
 ];
 
@@ -66,7 +66,6 @@ const Footer = () => {
                         <h2 className="headline-1 mb-8 lg:max-w-[12ch] reveal-up">
                             Let&apos;s work together today!
                         </h2>
-
                         <ButtonPrimary 
                         href="mailto: abdullahhunjra111@gmail.com"
                         label="Start Project"
@@ -78,12 +77,12 @@ const Footer = () => {
                     <div className=" grid grid-cols-2 gap-4 lg:pl-20">
 
                         <div>
-                            <p className=" mb-2 reveal-up">Sitemap</p>
+                            <p className=" mb-2 reveal-up text-[#F5F5F7]">Sitemap</p>
 
                             <ul>
                                 {sitemap.map(({label,href},key)=>(
                                     <li key={key}>
-                                        <a href={href} className=" block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200 reveal-up">
+                                        <a href={href} className=" block text-sm text-[#C4C4D4] py-1 transition-colors hover:text-zinc-200 reveal-up">
                                             {label}
                                         </a>
                                     </li>
@@ -92,12 +91,12 @@ const Footer = () => {
                         </div>
 
                         <div>
-                            <p className=" mb-2 reveal-up">Socials</p>
+                            <p className=" mb-2 reveal-up text-[#F5F5F7]">Socials</p>
 
                             <ul>
                                 {socials.map(({label,href},key)=>(
                                     <li key={key}>
-                                        <a href={href} target="_blank" className=" block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200 reveal-up">
+                                        <a href={href} target="_blank" className=" block text-sm text-[#C4C4D4] py-1 transition-colors hover:text-zinc-200 reveal-up">
                                             {label}
                                         </a>
                                     </li>
@@ -113,8 +112,8 @@ const Footer = () => {
                         <img src="/images/logo.svg" width={40} height={40} alt="Logo" />
                     </a>
 
-                    <p className=" text-zinc-50 text-sm reveal-up">
-                        &copy; 2025 <span className=" text-zinc-200">ABD</span>
+                    <p className=" text-[#F5F5F7] text-sm reveal-up">
+                        &copy; 2025 <span className=" text-[#F5F5F7]">ABD</span>
                     </p>
                 </div>
             </div>
