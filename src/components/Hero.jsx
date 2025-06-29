@@ -45,9 +45,15 @@ const Hero = () => {
                     </div>
                 </div>
 
-                <div className=" hidden lg:block">
-                    <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-purple-950 via-25% via-purple-950/40 to-65% rounded-[60px] overflow-hidden">
-                        <img src="/images/abd_new-removebg-png.png" width={656} height={800} alt="ABD" className="w-full mt-[-50px]" />
+                <div className="block lg:block mt-16 lg:mt-0">
+                   <figure className="w-full max-w-[300px] mx-auto lg:max-w-[480px] lg:ml-auto bg-gradient-to-t from-purple-950 via-25% via-purple-950/40 to-65% rounded-[30px] lg:rounded-[60px] overflow-hidden">
+                        <img
+                          src="/images/abd_new-removebg-png.png"
+                          width={656}
+                          height={800}
+                          alt="ABD"
+                          className="w-full mt-[-30px] lg:mt-[-50px]"
+                        />
                     </figure>
                 </div>
             </div>
