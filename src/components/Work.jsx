@@ -11,21 +11,21 @@ const works = [
         projectLink: 'https://abd-portfolio-l0plgh5d8-abdullahs-projects-2d66ab66.vercel.app/'
     },
     {
-        imgSrc: '/images/marketphy.png',
-        title: 'Market Phy',
-        tags: ['ecommerce', 'Development'],
-        projectLink: 'https://marketphy.com/website-development-services/'
+        imgSrc: '/images/thumbnail.png',
+        title: 'AI Enhanced Personal Neuro Diary',
+        tags: ['FYP', 'Development'],
+        projectLink: 'https://github.com/Abdullah-Hunjra1/NeuroDiary'
     },
     {
-        imgSrc: '/images/IAN.png',
-        title: 'IAN DARRAH',
-        tags: ['Development', 'API'],
-        projectLink: 'https://iandarrah.com/'
+        imgSrc: '/images/video-calling thumbnail.png',
+        title: 'Connectify',
+        tags: ['Video Calling', 'Chat App'],
+        projectLink: 'https://github.com/Abdullah-Hunjra1/Connectify'
     },
     {
-        imgSrc: '/images/heaven-hub.png',
+        imgSrc: '/images/heaven-hub thumbnail.png',
         title: 'Real state website',
-        tags: ['Web-design', 'Development'],
+        tags: ['Web-design', 'Frontend'],
         projectLink: 'https://heaven-hub-sigma.vercel.app/'
     },
     {
@@ -36,9 +36,9 @@ const works = [
     },
     {
         imgSrc: '/images/project-6.jpg',
-        title: 'vCard Personal portfolio',
-        tags: ['Web-design', 'Development'],
-        projectLink: ''
+        title: 'Ecommerce-Store',
+        tags: ['MERN STACK', 'Development'],
+        projectLink: 'https://github.com/Abdullah-Hunjra1/Ecommerce-Store'
     },
 ];
 
@@ -71,3 +71,4 @@ const Work = () => {
 }
 
 export default Work
+
